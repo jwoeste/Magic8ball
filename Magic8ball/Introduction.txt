@@ -1,0 +1,25 @@
+﻿Building Apps with P3
+
+
+Agenda:
+
+What are Apps?
+
+- What Type of Apps exist?
+
+- How do you get an app?
+
+
+Building our own app!
+
+- Describing your app
+- Creating a "mock up"
+- Implementing UI (User Interface)
+- Coding Program Logic
+- Testing!
+
+
+Distributing and Monetizing our app
+
+- How can we make money on apps?
+- Marketing?

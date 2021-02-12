@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Magic8ball.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Magic8ball">
+    <StackLayout>
+        <Frame
+            Padding="36"
+            BackgroundColor="#2196F3"
+            CornerRadius="0">
+            <Label
+                FontSize="36"
+                HorizontalTextAlignment="Center"
+                Text="Awesome P3 Magic 8 Ball"
+                TextColor="White" />
+        </Frame>
+
+        <Label
+            Padding="30,10,30,10"
+            FontSize="Title"
+            Text="Ask your question and tab the magic 8 ball!" />
+
+        <Entry x:Name="question" Placeholder="Your Question here..." />
+
+
+        <ImageButton Clicked="Button_Clicked" Source="{local:ImageResource magic8ball.png}" />
+
+
+        <Label
+            x:Name="labelAnswer"
+            Padding="30,10,30,10"
+            FontSize="Title"
+            HorizontalTextAlignment="Center"
+            Text=""
+            VerticalTextAlignment="Center" />
+
+        <ImageButton Clicked="Button_Clicked" Source="{local:ImageResource classpic-heic}" />
+
+    </StackLayout>
+</ContentPage>
